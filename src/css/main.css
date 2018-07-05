@@ -1,0 +1,573 @@
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */
+
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
+
+* { box-sizing: border-box; margin: 0; }
+
+body { padding: 0; margin: 0; font-family: 'Open Sans', arial, sans-serif; }
+
+@font-face { font-family: 'Mega'; font-style: normal; font-weight: normal; src: url("../font/Fresh.ttf"); }
+/* Header */
+.main-header { position: relative; width: 100%; height: 100vh; padding-top: 70px; background-size: cover; background-color: #1a1a1a; background-attachment: fixed; }
+.main-header h1 { font-family: 'Mega', sans-serif; color: white; text-align: center; font-size: 9rem; font-weight: lighter; margin-bottom: 12px; margin-top: 30vh; }
+.main-header .top { color: #00B3AA; font-style: normal; margin-top: 80px; }
+.main-header p { line-height: 12px; font-style: italic; text-align: center; font-size: 0.85rem; color: #969696; }
+
+.arrow { position: absolute; bottom: 15px; }
+
+/* Nav */
+.main-nav { z-index: 99; margin: 0; position: fixed; height: 40px; text-align: center; width: 100%; background-color: #1a1a1a; }
+.main-nav ul { padding: 0; margin: 0; margin: auto; display: inline-block; position: relative; text-align: center; }
+.main-nav li { float: left; list-style-type: none; }
+.main-nav li a { display: inline-block; padding: 0 30px; text-decoration: none; color: grey; font-family: 'Open Sans', arial, sans-serif; text-transform: uppercase; font-size: 12px; line-height: 40px; -webkit-transition: all ease 0.6s; -moz-transition: all ease 0.6s; transition: all ease 0.6s; }
+.main-nav a:hover { color: turquoise; }
+
+/* Pseudo Class For Nav Hover */
+/* Main Container */
+.page-container { margin-top: 150px; width: 100%; margin-left: auto; margin-right: auto; }
+.page-container h2 { margin: 10px; margin-top: 120px; margin-bottom: 25px; font-size: 1.5rem; text-align: center; text-transform: uppercase; color: black; font-weight: lighter; letter-spacing: 4px; }
+
+/* Services */
+article { margin-bottom: 30px; }
+
+.serv h3 { text-transform: uppercase; text-align: center; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; margin-top: 10px; }
+.serv p { font-size: 12px; max-width: 400px; margin: auto; }
+
+.icons { text-align: center; color: #00ada2; }
+
+/* Portfolio */
+.port article { padding: 0; margin: 0; }
+.port img { margin: auto; display: block; width: 100%; max-width: 400px; }
+.port h4 { margin-top: 15px; text-align: center; font-size: 16px; font-weight: 400; text-transform: uppercase; }
+.port p { text-align: center; font-size: 12px; margin-top: 15px; color: white; }
+
+.moreinfo { bottom: 37px; margin: auto; left: 0; right: 0; position: absolute; background-color: rgba(0, 0, 0, 0); border: none; transition: all 1; }
+.moreinfo:hover { color: #00ada2; }
+
+/* Image Overlays */
+.overlay { position: absolute; top: 0; bottom: 0; height: 100%; width: 100%; max-width: 400px; margin: auto; left: 0; right: 0; opacity: 0; -webkit-transition: all 1s; -o-transition: all 1s; transition: all 1s; background-color: black; }
+
+.hover-img { position: relative; }
+.hover-img:hover .overlay { opacity: 0.8; }
+
+.hover-text { position: absolute; left: 0; right: 0; top: 0; opacity: 0; color: white; text-align: center; -webkit-transition: all 0.8s; -o-transition: all 0.8s; transition: all 0.8s; }
+.hover-text h3 { color: white; margin-top: 15vh; }
+.hover-text a { color: #00D6ED; }
+
+/* Page Footer */
+.page-footer { position: relative; background-color: black; }
+
+/* Contact */
+.contact { margin-top: 140px; color: grey; height: 200px; padding-left: 30px; z-index: 1; background-color: rgba(0, 0, 0, 0.7); }
+.contact h5 { font-size: 14px; padding-top: 30px; color: white; text-transform: uppercase; font-weight: lighter; }
+.contact a { font-size: 14px; text-decoration: none; color: grey; }
+.contact a:hover { color: #00ada2; }
+.contact p { padding-top: 3px; font-size: 14px; }
+
+/* Pseudo Class For Contact Hover */
+/* Social Media Icons */
+.icon { padding-top: 20px; padding-right: 10px; }
+
+/* Copyright */
+.copyright { position: absolute; background-color: black; width: 100%; height: 60px; bottom: 0; z-index: 1; }
+.copyright p { display: inline-block; color: grey; font-size: 10px; margin-left: 30px; margin-right: 0; margin-top: 20px; }
+.copyright .right { float: right; margin-left: 0; margin-right: 30px; }
+
+/*# sourceMappingURL=style.css.map */

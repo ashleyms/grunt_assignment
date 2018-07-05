@@ -1,0 +1,8 @@
+/* MEDIA QUERY */
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 680px) { .main-header h1 { font-size: 8rem; margin-bottom: 12px; margin-top: 15vh; } }
+/* Reduce Nav for Mobile */
+@media only screen and (max-width: 480px) { .main-nav li a { padding: 5px 12px; }
+  .main-header h1 { font-size: 7rem; margin-bottom: 12px; margin-top: 10vh; } }
+
+/*# sourceMappingURL=query.css.map */
